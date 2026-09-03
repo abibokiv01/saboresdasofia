@@ -34,6 +34,62 @@ const whatsappHref = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent
   WHATSAPP_MESSAGE
 )}`;
 
+function HeartIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden="true"
+    >
+      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+    </svg>
+  );
+}
+
+function SparkleIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden="true"
+    >
+      <path d="M12 2L14.4 9.6H22L16 14.4L18.4 22L12 17.2L5.6 22L8 14.4L2 9.6H9.6L12 2Z" />
+    </svg>
+  );
+}
+
+function CakeIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden="true"
+    >
+      <path d="M12 6C13.1 6 14 5.1 14 4C14 3.5 13.8 3 13.4 2.6L12 1L10.6 2.6C10.2 3 10 3.5 10 4C10 5.1 10.9 6 12 6ZM19 9H18V7C18 6.45 17.55 6 17 6H7C6.45 6 6 6.45 6 7V9H5C3.9 9 3 9.9 3 11V14C3 15.1 3.9 16 5 16H6V20C6 20.55 6.45 21 7 21H17C17.55 21 18 20.55 18 20V16H19C20.1 16 21 15.1 21 14V11C21 9.9 20.1 9 19 9ZM17 14H7V11H17V14Z" />
+    </svg>
+  );
+}
+
+function GiftIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden="true"
+    >
+      <path d="M20 6H17.5C17.81 5.38 18 4.71 18 4C18 1.79 16.21 0 14 0C12.46 0 11.13 0.88 10.47 2.17C9.87 0.88 8.54 0 7 0C4.79 0 3 1.79 3 4C3 4.71 3.19 5.38 3.5 6H3C1.34 6 0 7.34 0 9V13C0 14.66 1.34 16 3 16V21C3 22.1 3.9 23 5 23H19C20.1 23 21 22.1 21 21V16C22.66 16 24 14.66 24 13V9C24 7.34 22.66 6 21 6H20ZM14 4C14 3.45 14.45 3 15 3C15.55 3 16 3.45 16 4C16 4.55 15.55 5 15 5H14V4ZM7 4C7 3.45 7.45 3 8 3C8.55 3 9 3.45 9 4V5H8C7.45 5 7 4.55 7 4ZM3 9H11V13H3V9ZM5 21H5V16H11V21H5ZM19 21H13V16H19V21ZM21 13H13V9H21V13Z" />
+    </svg>
+  );
+}
+
 function WhatsAppIcon({ className }: { className?: string }) {
   return (
     <svg
