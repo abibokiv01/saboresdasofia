@@ -209,30 +209,31 @@ function Index() {
         <section className="grid gap-5 rounded-2xl bg-card p-6 shadow-lg sm:grid-cols-2 lg:grid-cols-4">
           {[
             {
-              icon: "❤️",
+              Icon: HeartIcon,
               title: "Feito com Amor",
               text: "Dedicamos carinho em cada etapa da produção.",
             },
             {
-              icon: "✨",
+              Icon: SparkleIcon,
               title: "Ingredientes de Qualidade",
               text: "Selecionamos as melhores matérias-primas.",
             },
             {
-              icon: "🎂",
+              Icon: CakeIcon,
               title: "Vários Sabores e Modelos",
               text: "Opções para todos os gostos.",
             },
             {
-              icon: "🎁",
+              Icon: GiftIcon,
               title: "Perfeito para todas as ocasiões",
               text: "Festas, aniversários, presentes.",
             },
           ].map((feature) => (
             <div key={feature.title} className="text-center">
-              <div className="text-3xl" aria-hidden="true">
-                {feature.icon}
-              </div>
+              <feature.Icon
+                className="mx-auto h-8 w-8 text-secondary"
+                aria-hidden="true"
+              />
               <h3 className="mt-2 text-base font-semibold text-primary">
                 {feature.title}
               </h3>
