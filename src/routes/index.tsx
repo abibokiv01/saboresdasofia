@@ -263,7 +263,7 @@ function Index() {
               className="inline-flex items-center gap-2 text-2xl font-semibold transition-opacity hover:opacity-90 sm:text-3xl"
             >
               <WhatsAppIcon className="h-7 w-7 sm:h-8 sm:w-8" />
-              84 492 1500
+              844921500
             </a>
           </div>
 
