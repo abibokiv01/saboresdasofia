@@ -9,13 +9,13 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Doces Amor - Confeiteira" },
+      { title: "Doces da Sofia - Confeiteira" },
       {
         name: "description",
         content:
           "Bolos artesanais feitos com amor para adoçar momentos especiais. Encomendas pelo WhatsApp em Texlon.",
       },
-      { property: "og:title", content: "Doces Amor - Confeiteira" },
+      { property: "og:title", content: "Doces da Sofia - Confeiteira" },
       {
         property: "og:description",
         content:
@@ -124,7 +124,7 @@ function Index() {
         <section className="rounded-2xl bg-card p-8 text-center shadow-lg sm:p-10">
           <div className="space-y-2">
             <h1 className="font-display text-5xl text-primary sm:text-6xl md:text-7xl">
-              Doces Amor
+              Doces da Sofia
             </h1>
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary sm:text-sm">
               • Confeiteira •
