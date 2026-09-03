@@ -51,37 +51,37 @@
 :root {
   --radius: 0.9375rem;
 
-  /* Doces Amor pink palette */
-  --background: oklch(0.84 0.06 12);
-  --foreground: oklch(0.43 0.02 0);
+  /* Doces da Sofia — paleta rosa chamativa e vibrante */
+  --background: oklch(0.78 0.10 12);
+  --foreground: oklch(0.35 0.03 0);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.43 0.02 0);
+  --card-foreground: oklch(0.35 0.03 0);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.43 0.02 0);
-  --primary: oklch(0.60 0.10 12);
+  --popover-foreground: oklch(0.35 0.03 0);
+  --primary: oklch(0.52 0.18 350);
   --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.71 0.09 12);
+  --secondary: oklch(0.68 0.15 350);
   --secondary-foreground: oklch(1 0 0);
   --muted: oklch(1 0 0);
-  --muted-foreground: oklch(0.55 0.03 0);
-  --accent: oklch(0.71 0.09 12);
-  --accent-foreground: oklch(1 0 0);
-  --destructive: oklch(0.58 0.20 25);
+  --muted-foreground: oklch(0.50 0.04 0);
+  --accent: oklch(0.82 0.14 85);
+  --accent-foreground: oklch(0.35 0.03 0);
+  --destructive: oklch(0.58 0.22 25);
   --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.75 0.04 12 / 25%);
-  --input: oklch(0.75 0.04 12 / 25%);
-  --ring: oklch(0.60 0.10 12);
+  --border: oklch(0.70 0.06 12 / 30%);
+  --input: oklch(0.70 0.06 12 / 30%);
+  --ring: oklch(0.52 0.18 350);
 
-  /* Decorative chart colors (kept consistent with warm pinks) */
-  --chart-1: oklch(0.60 0.10 12);
-  --chart-2: oklch(0.71 0.09 12);
-  --chart-3: oklch(0.84 0.06 12);
-  --chart-4: oklch(0.55 0.08 350);
-  --chart-5: oklch(0.50 0.07 30);
+  /* Cores decorativas vibrantes */
+  --chart-1: oklch(0.52 0.18 350);
+  --chart-2: oklch(0.68 0.15 350);
+  --chart-3: oklch(0.78 0.10 12);
+  --chart-4: oklch(0.82 0.14 85);
+  --chart-5: oklch(0.55 0.20 30);
 
-  /* Brand extras */
-  --whatsapp: oklch(0.65 0.20 145);
-  --location-pin: oklch(0.58 0.22 25);
+  /* Extras da marca */
+  --whatsapp: oklch(0.60 0.22 145);
+  --location-pin: oklch(0.55 0.24 25);
 }
 
 @layer base {
