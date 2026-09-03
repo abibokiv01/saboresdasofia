@@ -28,8 +28,8 @@ export const Route = createFileRoute("/")({
   }),
 });
 
-const WHATSAPP_NUMBER = "55844921500";
-const WHATSAPP_MESSAGE = "Olá Doces Amor! Gostaria de fazer um orçamento.";
+const WHATSAPP_NUMBER = "844921500";
+const WHATSAPP_MESSAGE = "Olá Doces da Sofia! Gostaria de fazer um orçamento.";
 const whatsappHref = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
   WHATSAPP_MESSAGE
 )}`;
@@ -136,6 +136,14 @@ function Index() {
           <p className="mt-2 text-sm italic text-muted-foreground sm:text-base">
             Bolos que encantam, sabores que ficam na memória!
           </p>
+          <div className="mt-6">
+            <Link
+              to="/orcamento"
+              className="inline-flex items-center justify-center rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+            >
+              Pedir orçamento
+            </Link>
+          </div>
         </section>
 
         {/* Cake showcase */}
@@ -255,7 +263,7 @@ function Index() {
               className="inline-flex items-center gap-2 text-2xl font-semibold transition-opacity hover:opacity-90 sm:text-3xl"
             >
               <WhatsAppIcon className="h-7 w-7 sm:h-8 sm:w-8" />
-              84 492 1500
+              844921500
             </a>
           </div>
 
