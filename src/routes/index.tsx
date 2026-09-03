@@ -28,8 +28,8 @@ export const Route = createFileRoute("/")({
   }),
 });
 
-const WHATSAPP_NUMBER = "55844921500";
-const WHATSAPP_MESSAGE = "Olá Doces Amor! Gostaria de fazer um orçamento.";
+const WHATSAPP_NUMBER = "844921500";
+const WHATSAPP_MESSAGE = "Olá Doces da Sofia! Gostaria de fazer um orçamento.";
 const whatsappHref = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
   WHATSAPP_MESSAGE
 )}`;
